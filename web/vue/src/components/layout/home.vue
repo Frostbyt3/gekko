@@ -12,15 +12,15 @@ import marked from '../../tools/marked';
 
 const left = marked(`
 
-## Gekko
+## Coinbot
 
-Gekko is a Bitcoin trading bot and backtesting platform that
+Coinbot is a Bitcoin trading bot and backtesting platform that
 connects to popular Bitcoin exchanges. It is written in javascript
 and runs on nodejs.
 
 [Find out more](https://gekko.wizb.it/).
 
-*Gekko is 100% free (open source), if you paid for this you have been scammed.*
+*Coinbot is 100% free (open source), if you paid for this you have been scammed.*
 
 `);
 

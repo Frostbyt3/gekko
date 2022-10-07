@@ -20,7 +20,7 @@
 
 */
 
-console.log(`
+/*console.log(`
     ______   ________  __    __  __    __   ______
    /      \\ /        |/  |  /  |/  |  /  | /      \\
   /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
@@ -30,12 +30,14 @@ console.log(`
   $$ \\__$$ |$$ |_____ $$ |$$  \\ $$ |$$  \\ $$ \\__$$ |
   $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
    $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
-`);
+`);*/
+
+console.log("Welcome to the official Coinbot where we make money!");
 
 const util = require(__dirname + '/core/util');
 
-console.log('\tGekko v' + util.getVersion());
-console.log('\tI\'m gonna make you rich, Bud Fox.', '\n\n');
+console.log('\tCoinbot v' + util.getVersion());
+console.log('\tI\'m gonna make you rich, nigga!', '\n\n');
 
 const dirs = util.dirs();
 
@@ -49,9 +51,9 @@ const mode = util.gekkoMode();
 
 if(
   config.trader.enabled &&
-  !config['I understand that Gekko only automates MY OWN trading strategies']
+  !config['I understand that Coinbot only automates MY OWN trading strategies']
 )
-  util.die('Do you understand what Gekko will do with your money? Read this first:\n\nhttps://github.com/askmike/gekko/issues/201');
+  util.die('Do you understand what Coinbot will do with your money? Read this first:\n\nhttps://github.com/askmike/gekko/issues/201');
 
 // > Ever wonder why fund managers can't beat the S&P 500?
 // > 'Cause they're sheep, and sheep get slaughtered.
